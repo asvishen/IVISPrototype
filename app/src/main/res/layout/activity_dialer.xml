@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/speakButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:background="@drawable/mic"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="270dp"
+        android:text="2456"
+
+        />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:orientation="horizontal">
+
+
+
+
+        <Button android:text="1"
+            android:id="@+id/one"
+            android:layout_width="250dp"
+            android:background="@drawable/startbutton"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+
+            />
+
+        <Button android:text="2"
+            android:id="@+id/two"
+            android:layout_width="250dp"
+            android:background="@drawable/startbutton"
+
+            android:layout_height="100dp"
+            android:textSize="30sp"
+
+
+            />
+
+        <Button android:text="3"
+            android:id="@+id/three"
+            android:layout_width="250dp"
+            android:background="@drawable/startbutton"
+
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            />
+
+        <Button android:text="4"
+            android:id="@+id/four"
+            android:layout_width="250dp"
+            android:background="@drawable/startbutton"
+
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            />
+
+        <Button android:text="5"
+            android:id="@+id/five"
+            android:layout_width="250dp"
+            android:background="@drawable/startbutton"
+
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button android:text="6"
+            android:id="@+id/six"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/startbutton"
+
+            android:textSize="30sp"/>
+
+        <Button android:text="7"
+            android:id="@+id/seven"
+            android:layout_width="250dp"
+            android:background="@drawable/startbutton"
+
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button android:text="8"
+            android:id="@+id/eight"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/startbutton"
+
+            android:textSize="30sp" />
+
+        <Button android:text="9"
+            android:id="@+id/nine"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/startbutton"
+
+            android:textSize="30sp"/>
+
+        <Button android:text="*"
+            android:id="@+id/star"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/startbutton"
+
+            android:textSize="30sp"/>
+
+        <Button android:text="0"
+            android:id="@+id/zero"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/startbutton"
+
+            android:textSize="30sp"/>
+
+        <Button android:text="#"
+            android:id="@+id/pound"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/startbutton"
+
+            android:textSize="30sp"/>
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="270dp"
+        >
+
+
+        <Button
+            android:id="@+id/call"
+            android:background="@drawable/call"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:onClick="callingMethod"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/contacts"
+            android:background="@drawable/contacts"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/backspace"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:onClick="backSpace"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/homeButton"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+
+            <!--android:background="@drawable/homebutton"-->
+
+            <!--/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:background="@drawable/homebutton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

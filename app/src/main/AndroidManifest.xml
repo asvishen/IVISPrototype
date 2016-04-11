@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.asu.msse.avishen.prototype" >
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpeechRec"
+            android:label="@string/title_activity_speech_rec" >
+        </activity>
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name=".Music"
+            android:label="@string/title_activity_music" >
+        </activity>
+        <activity
+            android:name=".Dialer"
+            android:label="@string/title_activity_dialer" >
+        </activity>
+        <activity
+            android:name=".AirCon"
+            android:label="@string/title_activity_air_con" >
+        </activity>
+        <activity
+            android:name=".CarControl"
+            android:label="@string/title_activity_car_control" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Maps" -->
+        <!-- android:label="@string/title_activity_maps" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".TextToSpeech"
+            android:label="@string/title_activity_text_to_speech" >
+        </activity>
+    </application>
+
+</manifest>

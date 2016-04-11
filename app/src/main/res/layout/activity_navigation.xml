@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="edu.asu.msse.avishen.prototype.Navigation">
+
+    <Button
+        android:id="@+id/speakButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/speakButton">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Enter Destination"
+                android:textStyle="bold"
+
+                android:id="@+id/textView3"
+            />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/editText"
+                android:layout_below="@+id/textView3"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Start Navigation"
+                android:layout_marginTop="20dp"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/startbutton"
+                android:id="@+id/button"
+                android:layout_below="@+id/editText"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="40sp"
+
+                android:text="Favorites"
+                android:textStyle="bold"
+                android:layout_below="@+id/button"
+                android:layout_marginBottom="30dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView4"
+
+                />
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/startbutton"
+                android:layout_below="@id/textView4"
+                android:layout_weight="1" />
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/homebot"
+                android:background="@drawable/homebutton"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
